@@ -1,0 +1,16 @@
+@use 'sass:math';
+@use '../variables' as *;
+#app {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-area {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+.main-content {
+    display: flex;
+    flex-grow: 1;
+}

@@ -1,0 +1,23 @@
+@use 'sass:math';
+@use '../variables' as *;
+.sideBar {
+    width: 250px;
+    background: $secondary-color;
+    flex-shrink: 0;
+}
+
+.sideBar .navList {
+    margin: 0;
+    padding: 10px 0;
+}
+
+ul.navList a {
+    padding: 15px 10px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+
+    &.active, &:hover {
+        background-color: $primary-color;
+    }
+}

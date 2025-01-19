@@ -1,0 +1,5 @@
+@use '../variables' as *;
+@forward './Header';
+@forward './Sidebar';
+@forward './Main';
+@forward './Footer';

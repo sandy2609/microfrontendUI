@@ -1,0 +1,12 @@
+@use 'sass:math';
+@use '../variables' as *;
+header{
+    background-color: $primary-color;
+    padding: 10px;
+    color: $white;
+
+    .appName a{
+        color: $white;
+        text-decoration: none;
+    }
+}

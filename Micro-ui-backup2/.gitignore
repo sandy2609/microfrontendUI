@@ -1,0 +1,58 @@
+# Node modules
+**/node_modules/
+
+# Logs
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build directories
+**/build/
+**/dist/
+
+# Temporary files and directories
+*.tmp
+*.cache
+*.swp
+.cache/
+.DS_Store
+Thumbs.db
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Package lock files (optional)
+# Uncomment the following lines if you want to ignore lock files for all apps
+# **/yarn.lock
+# **/package-lock.json
+
+# Coverage directory used by testing tools like Jest
+**/coverage/
+
+# SASS/SCSS cache files
+*.sass-cache
+
+# Miscellaneous
+*.bak
+*.orig
+*.rej
+
+# MacOS system files
+*.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Firebase/Firestore files (if using)
+**/.firebaserc
+**/firebase-debug.log

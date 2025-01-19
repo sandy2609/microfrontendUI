@@ -1,0 +1,8 @@
+@use 'sass:math';
+@use '../variables' as *;
+.primary-button {
+    padding: 10px 10px;
+    border: 0;
+    text-decoration: none;
+    color: #000;
+}
